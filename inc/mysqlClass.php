@@ -1,7 +1,7 @@
 <?php
 define("DB_HOST",'localhost');//数据库配置
-define("DB_USERNAME",'root');
-define("DB_PASSWORD",'');
+define("DB_USERNAME",'data');
+define("DB_PASSWORD",'data.)(*');
 define("DB_NAME",'data');
 
 class Mysqls{
