@@ -87,7 +87,7 @@ function initData(n) {
 	$('#menu a').removeClass('on').eq(n).addClass('on');
 	showToast('loading', '数据加载中...');
 	setTimeout(function(){hideToast('loading');}, 2000);
-	ajaxPost('sub/data.php', {ac:'chart',n:n}, function(data) {
+	ajaxPost('sub/whcb_tb.php', {ac:'init',n:n}, function(data) {
 		option.xAxis.categories = data.data.xaxis;
 		option.series[0].data = data.data.series;
 		chart = new Highcharts.Chart(option);

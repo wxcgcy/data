@@ -7,6 +7,7 @@ require_once __DIR__.'/inc/global.php';
 
 $data = array(
 	array('title' => '外汇储备', 'url' => './whcb/'),
+	array('title' => '新华字典', 'url' => './xhzd/'),
 );
 ?>
 <!DOCTYPE html>

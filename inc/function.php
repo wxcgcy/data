@@ -72,9 +72,9 @@ function htmlutf8($html) {
 	return $html;
 }
 
-//gb2312->utf-8
+//gb->utf-8
 function gb2utf8($content) {
-	return mb_convert_encoding($content, 'utf-8', 'gb2312');
+	return mb_convert_encoding($content, 'utf-8', 'gbk');
 }
 
 function formatSize($size, $decimals = 0) {
